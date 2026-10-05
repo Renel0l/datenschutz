@@ -42,7 +42,8 @@ Rene Borda, reneborda@icloud.com
 - keine Werbung, kein Tracking, keine Verknüpfung mit Daten anderer Apps
 - keine Internetverbindung für den Betrieb der App außer für den optionalen
   iCloud-Abgleich; ein Link in den Einstellungen öffnet auf deinen Wunsch die
-  Website der Übungsdatenquelle (repdb.co) im Browser
+  Website der Übungsdatenquelle (repdb.co) im Browser, und ein Knopf bei einer
+  Übung öffnet auf deinen Wunsch eine YouTube-Suche dazu im Browser
 
 Absturzberichte, die du Apple über die Systemeinstellungen freigibst, verarbeitet
 Apple nach eigenen Bestimmungen; der Entwickler sieht darin keine persönlichen
@@ -107,7 +108,7 @@ Rene Borda, reneborda@icloud.com
 - no third-party analytics or crash-reporting services
 - no advertising, no tracking, no linking with data from other apps
 - no internet connection needed apart from the optional iCloud sync; a link in
-  the settings opens the website of the exercise data source (repdb.co) in your browser only when you tap it
+  the settings opens the website of the exercise data source (repdb.co) in your browser only when you tap it, and a button on an exercise opens a YouTube search for it in your browser, again only when you tap it
 
 ## Deletion
 
