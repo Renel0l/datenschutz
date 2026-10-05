@@ -23,15 +23,22 @@ Rene Borda, reneborda@icloud.com
   Geräten ab. Die Daten liegen in deinem iCloud-Konto; der Entwickler hat darauf
   keinen Zugriff und kann sie weder einsehen noch auswerten. Es gelten Apples
   Datenschutzbestimmungen für iCloud. Ohne iCloud-Anmeldung bleibt alles lokal.
+  **Ausgenommen** sind Aktivitäten (auch aus Apple Health) und Körpermaße: Sie
+  bleiben immer nur auf dem Gerät und werden nie über iCloud abgeglichen — sie
+  sind aber Teil der normalen iPhone-Gerätesicherung und einer exportierten
+  Sicherung.
 - **Apple Health:** Nur wenn du es in der App erlaubst, liest Fitnuss aus Apple
   Health: Trainings (etwa von der Apple Watch) mit Puls, aktiven Kalorien, Strecke
   und der aufgezeichneten Route, außerdem Schritte, Achtsamkeitsminuten und dein
-  Körpergewicht. Fitnuss schreibt eigene Trainings mit Strecke und
-  Achtsamkeitsminuten dorthin. Übernommene Trainings — einschließlich der Route,
-  die nur zur Anzeige der Karte dient — und Messwerte gehören danach zu deinen
-  Trainingsdaten (siehe oben). Sie werden nicht an den Entwickler oder Dritte
-  übertragen und nicht für Werbung oder Marketing genutzt. Die Erlaubnis kannst du
-  jederzeit in der Health-App unter *Teilen → Apps → Fitnuss* ändern.
+  Körpergewicht. Fitnuss schreibt eigene Trainings mit Strecke,
+  Achtsamkeitsminuten und das Körpergewicht, das du in der App einträgst, dorthin —
+  so erreicht dein Gewicht über Health auch deine anderen Geräte. Übernommene
+  Trainings — einschließlich der Route, die nur zur Anzeige der Karte dient — und
+  Messwerte bleiben nur auf deinem Gerät (siehe oben). Den Pulsverlauf eines
+  Trainings und deine Schritte liest Fitnuss nur zur Anzeige, wenn du sie
+  aufrufst; gespeichert werden sie nicht. Nichts davon wird an den Entwickler
+  oder Dritte übertragen oder für Werbung oder Marketing genutzt. Die Erlaubnis
+  kannst du jederzeit in der Health-App unter *Teilen → Apps → Fitnuss* ändern.
 - **Sicherung:** Eine exportierte Sicherung ist eine Datei, die du selbst
   speicherst oder teilst. Wohin sie geht, entscheidest du.
 
@@ -90,15 +97,21 @@ Rene Borda, reneborda@icloud.com
   data between your devices through Apple's CloudKit in your **private** iCloud
   database. The data lives in your iCloud account; the developer has no access to
   it and cannot view or analyse it. Apple's iCloud privacy terms apply. Without an
-  iCloud sign-in everything stays local.
+  iCloud sign-in everything stays local. **Excluded** are activities (including
+  those from Apple Health) and body measurements: they always stay on the device
+  and are never synced through iCloud — they are, however, part of your regular
+  iPhone backup and of an exported backup.
 - **Apple Health:** only if you allow it in the app, Fitnuss reads from Apple
   Health: workouts (for example from Apple Watch) with heart rate, active
   calories, distance and the recorded route, as well as steps, mindful minutes
-  and your body weight. Fitnuss writes its own workouts with distance and mindful
-  minutes there. Imported workouts — including the route, which is only used to
-  draw the map — and measurements then become part of your training data (see
-  above). They are never transmitted to the developer or third parties and are
-  not used for advertising or marketing. You can change the permission at any
+  and your body weight. Fitnuss writes its own workouts with distance, mindful
+  minutes and the body weight you enter in the app there — that way your weight
+  reaches your other devices through Health. Imported workouts — including the
+  route, which is only used to draw the map — and measurements stay on your device
+  only (see above). The heart rate curve of a workout and your steps are read
+  only for display when you open them; they are not stored. None of this is ever
+  transmitted to the developer or third parties or used for advertising or
+  marketing. You can change the permission at any
   time in the Health app under *Sharing → Apps → Fitnuss*.
 - **Backup:** an exported backup is a file you save or share yourself.
 
