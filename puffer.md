@@ -110,3 +110,7 @@ nothing to disclose or delete on the developer's side. To delete your data,
 delete the app and, if used, remove Puffer's data in your iCloud settings.
 
 Questions to the address above.
+
+## Support
+
+Fragen, Fehler, Wünsche · Questions, bugs, ideas: reneborda@icloud.com
